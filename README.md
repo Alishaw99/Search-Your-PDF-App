@@ -1,2 +1,5 @@
 # Search-Your-PDF-App
-Search Your PDF App using Langchain, ChromaDB, Sentence Transformers, and LaMiNi LM Model. This app is completely powered by Open Source Models.  No OpenAI key is required.
+Langchain is a powerful library designed for generative AI tasks, providing a range of capabilities that enhance language generation and understanding. 
+ChromaDB, on the other hand, acts as a vector store and database, enabling us to store and retrieve vectors efficiently. By integrating ChromaDB into our search tool, we can create a robust and scalable solution for managing the vector representations of PDF documents, allowing for faster and more accurate searches.
+Finally, we utilize an Open Source LLM (Language Model) to enable question-answering capabilities within our search tool. With the power of LLM, we can process user queries and extract relevant information from PDF documents, providing precise and context-aware answers to the user's questions.
+The unique aspect of this tutorial is that we do not rely on the OpenAI API, meaning you can run this entire system on your CPU without the need for external services. This ensures greater control, privacy, and accessibility for your PDF search needs.
